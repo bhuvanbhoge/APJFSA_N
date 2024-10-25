@@ -9,7 +9,7 @@ public class ArmstrongNum {
         System.out.println("Enter a number :");
         int num = sc.nextInt();
         int n, temp, sum = 0; // Changed variable name to 'sum'
-        int originalNumber = num; // More descriptive variable name
+        int a = num; // More descriptive variable name
         
         // Check if the number is an Armstrong number
         while (num != 0) {
@@ -20,10 +20,10 @@ public class ArmstrongNum {
         }
         
         // Output result
-        if (sum == originalNumber) {
-            System.out.println(originalNumber + " is an Armstrong number");
+        if (sum == a) {
+            System.out.println(a + " is an Armstrong number");
         } else {
-            System.out.println(originalNumber + " is not an Armstrong number");
+            System.out.println(a + " is not an Armstrong number");
         }
     }
 }
