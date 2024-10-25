@@ -19,7 +19,6 @@ public class AreaPerimeterOfSquare {
 
 	}
 
-
 	public static void main(String[] args) {
 
 		AreaPerimeterOfSquare obj = new AreaPerimeterOfSquare();    //instance of class
