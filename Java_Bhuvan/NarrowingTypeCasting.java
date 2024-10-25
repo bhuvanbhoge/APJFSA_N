@@ -35,8 +35,9 @@ public class NarrowingTypeCasting {
 }
 
 /*
- * Expected output
+Expected output
 Before Type casting Double : 12.0
 Before Type casting Long : 7
 After Type casting Double : 12
 After Type casting Long : 7
+*/
