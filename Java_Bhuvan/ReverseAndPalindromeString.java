@@ -54,9 +54,15 @@ public class ReverseAndPalindromeString {
 }
 
 /*
-output
-	Enter a string: mam
+Expected output 
+
+Enter a string: mam
 Palindrome
 Palindrome
 Reversed string is: mam
-	*/
+
+Enter a string: hello
+Non-palindrome
+Non-palindrome
+Reversed string is: olleh
+*/
