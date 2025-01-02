@@ -1,8 +1,8 @@
 package bhuvan;
 
 public class BasicClassObjectStaticNonStaticToString {
-	int p=10;
-	static int q=20;
+	int p=10;			//non static void(instance)
+	static int q=20;		//static(no need to create obj)
 	
 	public String toString() {
 		return "P: " + p + " , Q: "+q;
