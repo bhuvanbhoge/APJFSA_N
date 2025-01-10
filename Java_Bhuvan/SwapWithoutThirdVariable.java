@@ -12,7 +12,7 @@ public class SwapWithoutThirdVariable {
         System.out.println("Enter a second number: ");
         int secondNumber = sc.nextInt(); // Changed variable name to 'secondNumber'
         
-        // Swap the numbers using XOR
+        // Swap the numbers using XOR      or              we can use  (a=a+b;     b=a-b;     a=a-b;)               
         firstNumber = firstNumber ^ secondNumber;
         secondNumber = firstNumber ^ secondNumber;
         firstNumber = firstNumber ^ secondNumber;
