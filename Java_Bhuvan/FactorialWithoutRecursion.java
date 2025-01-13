@@ -12,3 +12,8 @@ public class FactorialWithoutRecursion {
 		
 	}
 }
+
+/*
+Expected Output:
+Factorial of 5 is 120
+*/
