@@ -1,6 +1,6 @@
 package LinkedList;
 
-public class InsertDeleteDisplay {
+public class LinkedListInsertDeleteDisplay {
 	public class Node{
         int data;
         Node next;
@@ -138,7 +138,7 @@ public class InsertDeleteDisplay {
     }
             
     public static void main(String[] args) {
-    	InsertDeleteDisplay m=new InsertDeleteDisplay();
+    	LinkedListInsertDeleteDisplay m=new LinkedListInsertDeleteDisplay();
         
         m.insertFirst(4);
         m.display();
